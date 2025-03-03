@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace ShiXun_Crypto.AES
 {
-    class Crypto
+    class Crypto : AESKey
     {
+        public string encrypt()
+        {
+            return "";
+        }
+        public string decrypt()
+        {
+            return "";
+        }
     }
 }
